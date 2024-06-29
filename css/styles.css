@@ -1,8 +1,9 @@
 @font-face {
-    font-family: "Norse-bold";
+    font-family: Norse-bold;
     src:
-        local("./fonts/Norse-Bold.otf"),
-        format("opentype")
+        local(Norse-bold), 
+        url("../fonts/Norse-Bold.otf"),
+        format("opentype");
 }
 
 .main-container {
@@ -13,6 +14,29 @@
     background: center no-repeat url("../images/2.JPG");
     min-width: 40vw;
     height: 100vh;
+}
+
+.odin-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 20%);
+    
+}
+
+.odin-logo-container > p {
+    color: azure;
+    font-family: Norse-bold;
+    font-size: 120px;
+    margin: 0;
+}
+
+.odin-logo {
+    background-size: contain;
+    background-position: center 30%;
+    margin: 10px 0;
+    height: 150px;
 }
 
 p {
