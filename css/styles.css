@@ -79,7 +79,7 @@ form > fieldset {
 .form-input > input {
     height: 25px;
     width: 100%;
-    border: 1px solid rgb(187, 187, 187);
+    border: 1px solid #E5E7EB;
     border-radius: 3px;
 }
 
@@ -93,4 +93,13 @@ form > fieldset {
 
 .button-section {
     padding: 20px 0 0 40px;
+}
+
+input[type=password]:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border: 1px solid #4a40db;
+    box-shadow: 0px 4px 7px 3px rgb(168, 168, 168);
 }
