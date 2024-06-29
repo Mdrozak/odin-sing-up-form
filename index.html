@@ -17,9 +17,30 @@
                 </p>
             </div>
             <form action="#" method="POST">
-                <p>Let's do this!</p>
-                
+                <fieldset>
+                    <legend>Registration form</legend>
+                    <p>Let's do this!</p>
+                    <label for="firstName"></label>
+                    <input type="text" name="FIRST NAME" id="firstName">
+
+                    <label for="lastName"></label>
+                    <input type="text" name="LAST NAME" id="lastName">
+
+                    <label for="email"></label>
+                    <input type="email" name="EMAIL" id="email">
+
+                    <label for="phoneNumber"></label>
+                    <input type="tel" name="PHONE NUMBER" id="phoneNumber">
+
+                    <label for="password"></label>
+                    <input type="password" name="PASSWORD" id="password">
+
+                    <label for="passwordConfirm"></label>
+                    <input type="password" name="CONFIRM PASSWORD" id="passwordConfirm">
+                </fieldset>
             </form>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
 </body>
