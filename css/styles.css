@@ -5,6 +5,16 @@
         format("opentype")
 }
 
+.main-container {
+    display: flex;
+}
+
+.logo-section {
+    background: center no-repeat url("../images/2.JPG");
+    min-width: 40vw;
+    height: 100vh;
+}
+
 p {
     font-family: "Norse-bold";
 }
