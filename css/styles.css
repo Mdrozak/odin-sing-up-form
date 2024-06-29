@@ -94,6 +94,16 @@ form > fieldset {
 .button-section {
     padding: 20px 0 0 40px;
 }
+button {
+    height: 40px;
+    width: 180px;
+    background-color: rgb(48, 128, 48);
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
 
 input[type=password]:invalid {
     border-color: red;
@@ -102,4 +112,15 @@ input[type=password]:invalid {
 input:focus {
     border: 1px solid #4a40db;
     box-shadow: 0px 4px 7px 3px rgb(168, 168, 168);
+}
+
+button:active {
+    background-color: rgb(25, 134, 25);
+    box-shadow: 0px 1px 1px rgb(223, 223, 223);
+}
+
+.button-section > p > a {
+    color: rgb(48, 128, 48);
+    font-weight: bold;
+    text-decoration: none;
 }
