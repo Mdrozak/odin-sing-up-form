@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Norse-bold";
+    src:
+        local("./fonts/Norse-Bold.otf"),
+        format("opentype")
+}
+
+p {
+    font-family: "Norse-bold";
+}
